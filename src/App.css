@@ -11,15 +11,16 @@ body {
 }
 
 .mapContainer {
-  width: 40%;
-  padding-top: 2em; 
-  padding-left: 2em;
+  width: 50%;
+  height: 100vh;
+  position: relative;
   background-color: lightblue;
+  overflow: hidden;
 }
 
 .quakeContainer {
-  width: 40%;
-  padding-top: 2em; 
-  padding-right: 2em;
+  width: 50%;
+  height: 100vh;
+  padding: 2em;
   background-color: pink;
 }
